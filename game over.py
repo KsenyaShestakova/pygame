@@ -24,7 +24,7 @@ size = width, height = 600, 300
 
 screen = pygame.display.set_mode(size)
 clock = pygame.time.Clock()
-fps = 60
+fps = 200
 running = True
 
 x, y = -600, 0
@@ -37,7 +37,7 @@ while running:
             running = False
 
     if x < 0:
-        x += 3.3
+        x += 1
 
     screen.fill((0, 0, 0))
     screen.blit(img, (int(x), y))
