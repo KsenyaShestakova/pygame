@@ -39,7 +39,7 @@ while running:
     if x < 0:
         x += 1
 
-    screen.fill((0, 0, 0))
+    screen.fill((0, 0, 255))
     screen.blit(img, (int(x), y))
 
     pygame.display.flip()
